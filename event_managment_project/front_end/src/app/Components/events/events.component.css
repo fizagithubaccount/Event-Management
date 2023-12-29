@@ -1,0 +1,31 @@
+.events {
+  background-image: url("/assets/theme-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  justify-content: center;
+  padding: 10%;
+}
+.events .card {
+  margin-bottom: 20%;
+  margin-left: 5%;
+  background-color: rgb(244, 237, 228);
+}
+.card {
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  transition: box-shadow 0.3s ease-in-out;
+  padding: 10px;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(255, 127, 176, 0.919);
+}
+.card-img-top {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  position: relative;
+}

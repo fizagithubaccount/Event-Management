@@ -1,0 +1,58 @@
+<div>
+  <nav
+    class="navbar bg-light border-bottom border-body navbar-expand-sm"
+    data-bs-theme="light"
+  >
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./assets/Icon.jpg" />
+        Event Management
+      </a>
+
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a
+              class="nav-link active"
+              aria-current="page"
+              routerLink="events"
+              target="_parent"
+            >
+              <img src="./assets/wedding-arch.png" alt="" />
+              <figcaption class="name">EVENTS</figcaption>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="cart">
+              <img src="./assets/online-shopping.png" alt="" />
+              <figcaption class="name">CART</figcaption>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="admin">
+              <img src="./assets/user.png" alt="" />
+              <figcaption class="name">Admin</figcaption>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="about">
+              <img src="./assets/people.png" alt="" />
+              <figcaption class="name">ABOUT US</figcaption>
+            </a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" routerLink="login">
+              <img src="./assets/entrance.png" alt="" />
+              <figcaption class="name">SIGN-UP</figcaption>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+<router-outlet></router-outlet>

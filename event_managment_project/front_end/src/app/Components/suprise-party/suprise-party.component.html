@@ -1,0 +1,4897 @@
+<section class="bd-card">
+    <div class="row">
+      <div class="col-lg-2">
+        <div class="main-box">
+          <div class="sidelist">
+            <ul class="Services">
+              <li
+                (click)="goto('Hospitality')"
+                [ngClass]="{ onActive: selectMenu == 'Hospitality' }"
+              >
+                <i class="fa fa-home"></i>Hospitality
+              </li>
+              <li
+                (click)="goto('Entertainment')"
+                [ngClass]="{ onActive: selectMenu == 'Entertainment' }"
+              >
+                <i class="fa fa-home"></i>Entertainment
+              </li>
+              <li
+                (click)="goto('Sound-System')"
+                [ngClass]="{ onActive: selectMenu === 'Sound-System' }"
+              >
+                <i class="fa fa-home"></i>Sound-System
+              </li>
+              <li
+                (click)="goto('Entry')"
+                [ngClass]="{ onActive: selectMenu == 'Entry' }"
+              >
+                <i class="fa fa-home"></i>Entry
+              </li>
+              <li
+                (click)="goto('PhotoGraphy')"
+                [ngClass]="{ onActive: selectMenu == 'PhotoGraphy' }"
+              >
+                <i class="fa fa-home"></i>PhotoGraphy
+              </li>
+              <li
+                (click)="goto('Catering')"
+                [ngClass]="{ onActive: selectMenu == 'Catering' }"
+              >
+                <i class="fa fa-home"></i>Catering
+              </li>
+              <li
+                (click)="goto('Food')"
+                [ngClass]="{ onActive: selectMenu == 'Food' }"
+              >
+                <i class="fa fa-home"></i>Food
+              </li>
+              <li
+                (click)="goto('Decoration')"
+                [ngClass]="{ onActive: selectMenu == 'Decoration' }"
+              >
+                <i class="fa fa-home"></i>Decoration
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Add the content section here -->
+      <div class="col-lg-10">
+        <div class="sidelist-content">
+          <div class="tabs" *ngIf="selectMenu == 'Hospitality'">
+  
+            
+              <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="assets/Hospitality/jnds.jpg" class="d-block w-100 h-50" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/Hospitality/images.jpg" class="d-block w-100 h-50" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/Hospitality/hosp.png" class="d-block w-100 h-80" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/Hospitality/events_important_hospitality_industry_575x843.jpg" class="d-block w-100 h-80" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="assets/Hospitality/download (2).jpg" class="d-block w-100 h-100" alt="...">
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="assets/Hospitality/download (1).jpg" class="d-block w-100 h-100" alt="...">
+                  </div>
+                  
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            </div>
+          
+          <div class="tabs" *ngIf="selectMenu == 'Entertainment'">
+            <div class="row">
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Entertainment\amchorig.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Entertainment\band.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Entertainment\download (1).jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Entertainment\download (4).jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Entertainment\download.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Entertainment\pexels-vishnu-r-nair-1105666_zdopwe.webp"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabs" *ngIf="selectMenu == 'Sound-System'">
+            THis is edbhs
+          </div>
+          <div class="tabs" *ngIf="selectMenu == 'Entry'">
+            <div class="row">
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Entrys\download (1).jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Entrys\download (2).jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Entrys\download (3).jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Entrys\download.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Entrys\images (1).jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Entrys\images (2).jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Entrys\images (3).jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Entrys\images (4).jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Entrys\images (4).jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tabs" *ngIf="selectMenu == 'PhotoGraphy'">
+            <div class="container">
+  
+            
+              <div class="row">
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\99aa8744-980b-4bb7-9265-287062716728.jpeg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\IMG-20231223-WA0032.jpg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+               
+              
+               
+               
+                
+              
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\product-jpeg-500x500.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="container">
+  
+            
+              <div class="row">
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\99aa8744-980b-4bb7-9265-287062716728.jpeg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\IMG-20231223-WA0032.jpg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+             
+                
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\product-jpeg-500x500.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+  
+            
+              <div class="row">
+             
+               
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\IMG-20231223-WA0034.jpg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\IMG-20231223-WA0035.jpg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                
+                
+                
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\product-jpeg-500x500.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container">
+  
+            
+              <div class="row">
+                
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\IMG-20231223-WA0034.jpg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\IMG-20231223-WA0035.jpg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                
+                
+                
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\product-jpeg-500x500.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          
+        
+          </div>
+          <div class="tabs" *ngIf="selectMenu == 'Catering'">
+            <div class="container">
+  
+            
+              <div class="row">
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\99aa8744-980b-4bb7-9265-287062716728.jpeg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\IMG-20231223-WA0032.jpg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\IMG-20231223-WA0033.jpg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\IMG-20231223-WA0034.jpg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\IMG-20231223-WA0035.jpg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\download.jpg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\il_570xN.3237074619_c3bk.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\main-qimg-29adbd707c35601a9930f5d09c2ef590-lq.jpg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Decoration\product-jpeg-500x500.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            
+          </div>
+          </div>
+          <!-- <div class="tabs" *ngIf="selectMenu == 'Food'">
+  
+            
+            <div class="row">
+              <div class="col-4">
+                <h1>Biriyani</h1>
+                <div class="card" style="width: 18rem">
+  
+                  
+                  <img
+                    src="assets\Food\Chicken-Tangri-Kebab.webp"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\chicken-wings.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\Tandoori-Chicken-Tikka-Kebab-447-1536x1018.webp"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\paneer-tikka.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\chickensatay.webp"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\lolipp.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\Kebab.JPG"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\allu-biriyani.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\allu-dal-tikki.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets/Food/almond-malai-kulfi.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\Apple-Pie-2.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\badam-shake.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\chicken-biryani1.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\chocolate cofee.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img src="assets\Food\coco.jpg" class="card-img-top" alt="bd" />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\coconut-kheer.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\egg-biryani-1-1300x868.jpeg.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\fish-biriyani.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\frt-jc.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\fruit.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\fuddy.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\gulab.cms.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\honey-glazed-chilli-potato-recipe-1.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\Island-Queen-Corporate-Events-4.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\kaju-biryani.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\Kebab.JPG"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\kesari shrikand.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\lemon tart.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\lemon-jc.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\mango-juice.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\mashroom-biryani.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\milk-shake.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\modak.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\Mutton-Biryani.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\paneer-biryani.webp"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\paneer-cutlet.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\prawns-biriyani.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\ras malai.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\shrikhand.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\spritr.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\veg-pulav.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\veg-fried-rice.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\tomato-bath.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\Tamato-chicken.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\tamato chutney.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\Samosa.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\sambar.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\radish sambar.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\prawsn curry.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\potato-rice.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\phirni.webp"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\parota.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\paneer-fried-rice.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\onion sambar.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\mutton-curry.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\mirchi bajji.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\mexican-rice.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\manchuria.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\instant noodle.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\gummadiyaka pulusu.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\gongura pulusu.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\garlic rasam.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\egg-fried-rice-recipe.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\egg-bajji.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\ctrib.JPG"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\cting1.jpeg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\Coriander-Rice.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\chiken-sherva.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\chickensatay.webp"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\chicken-fried-rice.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\chicekn curry.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\chepala pulusu.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\chapaths.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\cashew pakodi.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\carrot-fried-rice.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\burnt-garlic-fried.webp"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\bendakaya pulusu.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\Apple-Pie-2.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Food\apollo fish curry.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+                    <a routerLink="bd" class="btn btn-secondary">Go somewhere</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div> -->
+          <div class="tabs" *ngIf="selectMenu == 'Food'">
+            <div class="container">
+              <h1>Biryani</h1>
+  
+              <div class="row">
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets/Food/Mutton-Biryani.jpg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Mutton Biryani</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+  
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets/Food/chicken-biryani1.jpg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">Chicken Biryani</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+  
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets/Food/fish-biriyani.jpg"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">fish Biryani</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+  
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Food\Chicken-Tangri-Kebab.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+  
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Food\Chicken-Tangri-Kebab.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+  
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="container">
+              <h1>NoN-Biryani</h1>
+  
+              <div class="row">
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Food\Chicken-Tangri-Kebab.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+  
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+  
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Food\Chicken-Tangri-Kebab.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+  
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Food\Chicken-Tangri-Kebab.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+  
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Food\Chicken-Tangri-Kebab.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+  
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="col-4">
+                  <div class="card" style="width: 18rem">
+                    <img
+                      src="assets\Food\Chicken-Tangri-Kebab.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and
+                        make up the bulk of the card's content.
+                      </p>
+  
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+            <div class="container">
+  
+              <h1>starters</h1>
+  
+              <div class="row">
+  
+                <div class="col-4">
+  
+                  <div class="card" style="width: 18rem">
+  
+                  
+                    <img
+                      src="assets\Food\Chicken-Tangri-Kebab.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+  
+                  </div>
+  
+  
+                </div>
+                
+  
+                <div class="col-4">
+  
+                  <div class="card" style="width: 18rem">
+  
+                  
+                    <img
+                      src="assets\Food\Chicken-Tangri-Kebab.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+  
+                  </div>
+  
+              </div>
+              <div class="col-4">
+  
+                <div class="card" style="width: 18rem">
+  
+                
+                  <img
+                    src="assets\Food\Chicken-Tangri-Kebab.webp"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+  
+                </div>
+  
+            </div>
+            <div class="col-4">
+  
+              <div class="card" style="width: 18rem">
+  
+              
+                <img
+                  src="assets\Food\Chicken-Tangri-Kebab.webp"
+                  class="card-img-top"
+                  alt="bd"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+  
+                  <a routerLink="about" class="btn btn-secondary"
+                    >Go somewhere</a
+                  >
+                </div>
+  
+              </div>
+  
+          </div>
+          <div class="col-4">
+  
+            <div class="card" style="width: 18rem">
+  
+            
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make
+                  up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+  
+            </div>
+  
+        </div>
+  
+        <div class="col-4">
+  
+          <div class="card" style="width: 18rem">
+  
+          
+            <img
+              src="assets\Food\Chicken-Tangri-Kebab.webp"
+              class="card-img-top"
+              alt="bd"
+            />
+            <div class="card-body">
+              <h5 class="card-title">BIRTHDAY PARTIES</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make
+                up the bulk of the card's content.
+              </p>
+  
+              <a routerLink="about" class="btn btn-secondary"
+                >Go somewhere</a
+              >
+            </div>
+  
+          </div>
+  
+      </div>
+  
+      <div class="col-4">
+  
+        <div class="card" style="width: 18rem">
+  
+        
+          <img
+            src="assets\Food\Chicken-Tangri-Kebab.webp"
+            class="card-img-top"
+            alt="bd"
+          />
+          <div class="card-body">
+            <h5 class="card-title">BIRTHDAY PARTIES</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make
+              up the bulk of the card's content.
+            </p>
+  
+            <a routerLink="about" class="btn btn-secondary"
+              >Go somewhere</a
+            >
+          </div>
+  
+        </div>
+  
+    </div>
+  
+    <div class="col-4">
+  
+      <div class="card" style="width: 18rem">
+  
+      
+        <img
+          src="assets\Food\Chicken-Tangri-Kebab.webp"
+          class="card-img-top"
+          alt="bd"
+        />
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY PARTIES</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make
+            up the bulk of the card's content.
+          </p>
+  
+          <a routerLink="about" class="btn btn-secondary"
+            >Go somewhere</a
+          >
+        </div>
+  
+      </div>
+  
+  </div>
+  
+  <div class="col-4">
+  
+    <div class="card" style="width: 18rem">
+  
+    
+      <img
+        src="assets\Food\Chicken-Tangri-Kebab.webp"
+        class="card-img-top"
+        alt="bd"
+      />
+      <div class="card-body">
+        <h5 class="card-title">BIRTHDAY PARTIES</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make
+          up the bulk of the card's content.
+        </p>
+  
+        <a routerLink="about" class="btn btn-secondary"
+          >Go somewhere</a
+        >
+      </div>
+  
+    </div>
+  
+  </div>
+  
+  
+  <div class="col-4">
+  
+    <div class="card" style="width: 18rem">
+  
+    
+      <img
+        src="assets\Food\Chicken-Tangri-Kebab.webp"
+        class="card-img-top"
+        alt="bd"
+      />
+      <div class="card-body">
+        <h5 class="card-title">BIRTHDAY PARTIES</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make
+          up the bulk of the card's content.
+        </p>
+  
+        <a routerLink="about" class="btn btn-secondary"
+          >Go somewhere</a
+        >
+      </div>
+  
+    </div>
+  
+  </div>
+        
+      </div>
+    </div>
+  
+    <div class="container">
+  
+    <h1>fried rice</h1>
+  
+              <div class="row">
+  
+                <div class="col-4">
+  
+                  <div class="card" style="width: 18rem">
+  
+                  
+                    <img
+                      src="assets\Food\Chicken-Tangri-Kebab.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+  
+                  </div>
+  
+  
+                </div>
+                
+  
+                <div class="col-4">
+  
+                  <div class="card" style="width: 18rem">
+  
+                  
+                    <img
+                      src="assets\Food\Chicken-Tangri-Kebab.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+  
+                  </div>
+  
+              </div>
+              <div class="col-4">
+  
+                <div class="card" style="width: 18rem">
+  
+                
+                  <img
+                    src="assets\Food\Chicken-Tangri-Kebab.webp"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+  
+                </div>
+  
+            </div>
+            <div class="col-4">
+  
+              <div class="card" style="width: 18rem">
+  
+              
+                <img
+                  src="assets\Food\Chicken-Tangri-Kebab.webp"
+                  class="card-img-top"
+                  alt="bd"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+  
+                  <a routerLink="about" class="btn btn-secondary"
+                    >Go somewhere</a
+                  >
+                </div>
+  
+              </div>
+  
+          </div>
+          <div class="col-4">
+  
+            <div class="card" style="width: 18rem">
+  
+            
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make
+                  up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+  
+            </div>
+  
+        </div>
+  
+        <div class="col-4">
+  
+          <div class="card" style="width: 18rem">
+  
+          
+            <img
+              src="assets\Food\Chicken-Tangri-Kebab.webp"
+              class="card-img-top"
+              alt="bd"
+            />
+            <div class="card-body">
+              <h5 class="card-title">BIRTHDAY PARTIES</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make
+                up the bulk of the card's content.
+              </p>
+  
+              <a routerLink="about" class="btn btn-secondary"
+                >Go somewhere</a
+              >
+            </div>
+  
+          </div>
+  
+      </div>
+  
+      <div class="col-4">
+  
+        <div class="card" style="width: 18rem">
+  
+        
+          <img
+            src="assets\Food\Chicken-Tangri-Kebab.webp"
+            class="card-img-top"
+            alt="bd"
+          />
+          <div class="card-body">
+            <h5 class="card-title">BIRTHDAY PARTIES</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make
+              up the bulk of the card's content.
+            </p>
+  
+            <a routerLink="about" class="btn btn-secondary"
+              >Go somewhere</a
+            >
+          </div>
+  
+        </div>
+  
+    </div>
+  
+    <div class="col-4">
+  
+      <div class="card" style="width: 18rem">
+  
+      
+        <img
+          src="assets\Food\Chicken-Tangri-Kebab.webp"
+          class="card-img-top"
+          alt="bd"
+        />
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY PARTIES</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make
+            up the bulk of the card's content.
+          </p>
+  
+          <a routerLink="about" class="btn btn-secondary"
+            >Go somewhere</a
+          >
+        </div>
+  
+      </div>
+  
+  </div>
+  
+  <div class="col-4">
+  
+    <div class="card" style="width: 18rem">
+  
+    
+      <img
+        src="assets\Food\Chicken-Tangri-Kebab.webp"
+        class="card-img-top"
+        alt="bd"
+      />
+      <div class="card-body">
+        <h5 class="card-title">BIRTHDAY PARTIES</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make
+          up the bulk of the card's content.
+        </p>
+  
+        <a routerLink="about" class="btn btn-secondary"
+          >Go somewhere</a
+        >
+      </div>
+  
+    </div>
+  
+  </div>
+  
+  
+  <div class="col-4">
+  
+    <div class="card" style="width: 18rem">
+  
+    
+      <img
+        src="assets\Food\Chicken-Tangri-Kebab.webp"
+        class="card-img-top"
+        alt="bd"
+      />
+      <div class="card-body">
+        <h5 class="card-title">BIRTHDAY PARTIES</h5>
+        <p class="card-text">
+          Some quick example text to build on the card title and make
+          up the bulk of the card's content.
+        </p>
+  
+        <a routerLink="about" class="btn btn-secondary"
+          >Go somewhere</a
+        >
+      </div>
+  
+    </div>
+  
+  </div>
+        
+      </div>
+    </div>
+  
+    <div class="container">
+  
+      <h1>curries</h1>
+  
+      <p>veg</p>
+    
+                <div class="row">
+    
+                  <div class="col-4">
+    
+                    <div class="card" style="width: 18rem">
+    
+                    
+                      <img
+                        src="assets\Food\Chicken-Tangri-Kebab.webp"
+                        class="card-img-top"
+                        alt="bd"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and make
+                          up the bulk of the card's content.
+                        </p>
+      
+                        <a routerLink="about" class="btn btn-secondary"
+                          >Go somewhere</a
+                        >
+                      </div>
+    
+                    </div>
+    
+    
+                  </div>
+                  
+    
+                  <div class="col-4">
+    
+                    <div class="card" style="width: 18rem">
+    
+                    
+                      <img
+                        src="assets\Food\Chicken-Tangri-Kebab.webp"
+                        class="card-img-top"
+                        alt="bd"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                        <p class="card-text">
+                          Some quick example text to build on the card title and make
+                          up the bulk of the card's content.
+                        </p>
+      
+                        <a routerLink="about" class="btn btn-secondary"
+                          >Go somewhere</a
+                        >
+                      </div>
+    
+                    </div>
+    
+                </div>
+                <div class="col-4">
+    
+                  <div class="card" style="width: 18rem">
+    
+                  
+                    <img
+                      src="assets\Food\Chicken-Tangri-Kebab.webp"
+                      class="card-img-top"
+                      alt="bd"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                      <p class="card-text">
+                        Some quick example text to build on the card title and make
+                        up the bulk of the card's content.
+                      </p>
+    
+                      <a routerLink="about" class="btn btn-secondary"
+                        >Go somewhere</a
+                      >
+                    </div>
+    
+                  </div>
+    
+              </div>
+              <div class="col-4">
+    
+                <div class="card" style="width: 18rem">
+    
+                
+                  <img
+                    src="assets\Food\Chicken-Tangri-Kebab.webp"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+    
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+    
+                </div>
+    
+            </div>
+            <div class="col-4">
+    
+              <div class="card" style="width: 18rem">
+    
+              
+                <img
+                  src="assets\Food\Chicken-Tangri-Kebab.webp"
+                  class="card-img-top"
+                  alt="bd"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                  <p class="card-text">
+                    Some quick example text to build on the card title and make
+                    up the bulk of the card's content.
+                  </p>
+    
+                  <a routerLink="about" class="btn btn-secondary"
+                    >Go somewhere</a
+                  >
+                </div>
+    
+              </div>
+    
+          </div>
+    
+          <div class="col-4">
+    
+            <div class="card" style="width: 18rem">
+    
+            
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and make
+                  up the bulk of the card's content.
+                </p>
+    
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+    
+            </div>
+    
+        </div>
+    
+        <div class="col-4">
+    
+          <div class="card" style="width: 18rem">
+    
+          
+            <img
+              src="assets\Food\Chicken-Tangri-Kebab.webp"
+              class="card-img-top"
+              alt="bd"
+            />
+            <div class="card-body">
+              <h5 class="card-title">BIRTHDAY PARTIES</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make
+                up the bulk of the card's content.
+              </p>
+    
+              <a routerLink="about" class="btn btn-secondary"
+                >Go somewhere</a
+              >
+            </div>
+    
+          </div>
+    
+      </div>
+    
+      <div class="col-4">
+    
+        <div class="card" style="width: 18rem">
+    
+        
+          <img
+            src="assets\Food\Chicken-Tangri-Kebab.webp"
+            class="card-img-top"
+            alt="bd"
+          />
+          <div class="card-body">
+            <h5 class="card-title">BIRTHDAY PARTIES</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make
+              up the bulk of the card's content.
+            </p>
+    
+            <a routerLink="about" class="btn btn-secondary"
+              >Go somewhere</a
+            >
+          </div>
+    
+        </div>
+    
+    </div>
+    
+    <div class="col-4">
+    
+      <div class="card" style="width: 18rem">
+    
+      
+        <img
+          src="assets\Food\Chicken-Tangri-Kebab.webp"
+          class="card-img-top"
+          alt="bd"
+        />
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY PARTIES</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make
+            up the bulk of the card's content.
+          </p>
+    
+          <a routerLink="about" class="btn btn-secondary"
+            >Go somewhere</a
+          >
+        </div>
+    
+      </div>
+    
+    </div>
+    
+    
+    <div class="col-4">
+    
+      <div class="card" style="width: 18rem">
+    
+      
+        <img
+          src="assets\Food\Chicken-Tangri-Kebab.webp"
+          class="card-img-top"
+          alt="bd"
+        />
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY PARTIES</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make
+            up the bulk of the card's content.
+          </p>
+    
+          <a routerLink="about" class="btn btn-secondary"
+            >Go somewhere</a
+          >
+        </div>
+    
+      </div>
+    
+    </div>
+    <div class="col-4">
+    
+      <div class="card" style="width: 18rem">
+    
+      
+        <img
+          src="assets\Food\Chicken-Tangri-Kebab.webp"
+          class="card-img-top"
+          alt="bd"
+        />
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY PARTIES</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make
+            up the bulk of the card's content.
+          </p>
+    
+          <a routerLink="about" class="btn btn-secondary"
+            >Go somewhere</a
+          >
+        </div>
+    
+      </div>
+    
+    </div>
+    <div class="col-4">
+    
+      <div class="card" style="width: 18rem">
+    
+      
+        <img
+          src="assets\Food\Chicken-Tangri-Kebab.webp"
+          class="card-img-top"
+          alt="bd"
+        />
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY PARTIES</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make
+            up the bulk of the card's content.
+          </p>
+    
+          <a routerLink="about" class="btn btn-secondary"
+            >Go somewhere</a
+          >
+        </div>
+    
+      </div>
+    
+    </div>
+    <div class="col-4">
+    
+      <div class="card" style="width: 18rem">
+    
+      
+        <img
+          src="assets\Food\Chicken-Tangri-Kebab.webp"
+          class="card-img-top"
+          alt="bd"
+        />
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY PARTIES</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make
+            up the bulk of the card's content.
+          </p>
+    
+          <a routerLink="about" class="btn btn-secondary"
+            >Go somewhere</a
+          >
+        </div>
+    
+      </div>
+    
+    </div>
+    <div class="col-4">
+    
+      <div class="card" style="width: 18rem">
+    
+      
+        <img
+          src="assets\Food\Chicken-Tangri-Kebab.webp"
+          class="card-img-top"
+          alt="bd"
+        />
+        <div class="card-body">
+          <h5 class="card-title">BIRTHDAY PARTIES</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make
+            up the bulk of the card's content.
+          </p>
+    
+          <a routerLink="about" class="btn btn-secondary"
+            >Go somewhere</a
+          >
+        </div>
+    
+      </div>
+    
+    </div>
+  
+  
+    <div class="row">
+  
+      <p>Non-veg</p>
+  
+      <div class="col-4">
+    
+        <div class="card" style="width: 18rem">
+      
+        
+          <img
+            src="assets\Food\Chicken-Tangri-Kebab.webp"
+            class="card-img-top"
+            alt="bd"
+          />
+          <div class="card-body">
+            <h5 class="card-title">BIRTHDAY PARTIES</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make
+              up the bulk of the card's content.
+            </p>
+      
+            <a routerLink="about" class="btn btn-secondary"
+              >Go somewhere</a
+            >
+          </div>
+      
+        </div>
+      
+      </div>
+  
+      <div class="col-4">
+    
+        <div class="card" style="width: 18rem">
+      
+        
+          <img
+            src="assets\Food\Chicken-Tangri-Kebab.webp"
+            class="card-img-top"
+            alt="bd"
+          />
+          <div class="card-body">
+            <h5 class="card-title">BIRTHDAY PARTIES</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make
+              up the bulk of the card's content.
+            </p>
+      
+            <a routerLink="about" class="btn btn-secondary"
+              >Go somewhere</a
+            >
+          </div>
+      
+        </div>
+      
+      </div>
+      <div class="col-4">
+    
+        <div class="card" style="width: 18rem">
+      
+        
+          <img
+            src="assets\Food\Chicken-Tangri-Kebab.webp"
+            class="card-img-top"
+            alt="bd"
+          />
+          <div class="card-body">
+            <h5 class="card-title">BIRTHDAY PARTIES</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make
+              up the bulk of the card's content.
+            </p>
+      
+            <a routerLink="about" class="btn btn-secondary"
+              >Go somewhere</a
+            >
+          </div>
+      
+        </div>
+      
+      </div>
+      <div class="col-4">
+    
+        <div class="card" style="width: 18rem">
+      
+        
+          <img
+            src="assets\Food\Chicken-Tangri-Kebab.webp"
+            class="card-img-top"
+            alt="bd"
+          />
+          <div class="card-body">
+            <h5 class="card-title">BIRTHDAY PARTIES</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make
+              up the bulk of the card's content.
+            </p>
+      
+            <a routerLink="about" class="btn btn-secondary"
+              >Go somewhere</a
+            >
+          </div>
+      
+        </div>
+      
+      </div>
+      <div class="col-4">
+    
+        <div class="card" style="width: 18rem">
+      
+        
+          <img
+            src="assets\Food\Chicken-Tangri-Kebab.webp"
+            class="card-img-top"
+            alt="bd"
+          />
+          <div class="card-body">
+            <h5 class="card-title">BIRTHDAY PARTIES</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make
+              up the bulk of the card's content.
+            </p>
+      
+            <a routerLink="about" class="btn btn-secondary"
+              >Go somewhere</a
+            >
+          </div>
+      
+        </div>
+      
+      </div>
+      <div class="col-4">
+    
+        <div class="card" style="width: 18rem">
+      
+        
+          <img
+            src="assets\Food\Chicken-Tangri-Kebab.webp"
+            class="card-img-top"
+            alt="bd"
+          />
+          <div class="card-body">
+            <h5 class="card-title">BIRTHDAY PARTIES</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make
+              up the bulk of the card's content.
+            </p>
+      
+            <a routerLink="about" class="btn btn-secondary"
+              >Go somewhere</a
+            >
+          </div>
+      
+        </div>
+      
+      </div>
+      <div class="col-4">
+    
+        <div class="card" style="width: 18rem">
+      
+        
+          <img
+            src="assets\Food\Chicken-Tangri-Kebab.webp"
+            class="card-img-top"
+            alt="bd"
+          />
+          <div class="card-body">
+            <h5 class="card-title">BIRTHDAY PARTIES</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make
+              up the bulk of the card's content.
+            </p>
+      
+            <a routerLink="about" class="btn btn-secondary"
+              >Go somewhere</a
+            >
+          </div>
+      
+        </div>
+      
+      </div>
+      <div class="col-4">
+    
+        <div class="card" style="width: 18rem">
+      
+        
+          <img
+            src="assets\Food\Chicken-Tangri-Kebab.webp"
+            class="card-img-top"
+            alt="bd"
+          />
+          <div class="card-body">
+            <h5 class="card-title">BIRTHDAY PARTIES</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make
+              up the bulk of the card's content.
+            </p>
+      
+            <a routerLink="about" class="btn btn-secondary"
+              >Go somewhere</a
+            >
+          </div>
+      
+        </div>
+      
+      </div>
+  
+    </div>
+          
+        </div>
+      </div>
+  
+      <div class="container">
+        <h1>Sambar</h1>
+  
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container">
+        <h1>Chutney</h1>
+  
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          
+          
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container">
+        <h1>Curd</h1>
+  
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+      
+      <div class="container">
+        <h1>deserts</h1>
+  
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          
+  
+          
+  
+          
+        </div>
+      </div>
+  
+      <div class="container">
+        <h1>Snaks</h1>
+  
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="container">
+        <h1>Cool Drinks</h1>
+  
+        <div class="row">
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="assets\Food\Chicken-Tangri-Kebab.webp"
+                class="card-img-top"
+                alt="bd"
+              />
+              <div class="card-body">
+                <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                <p class="card-text">
+                  Some quick example text to build on the card title and
+                  make up the bulk of the card's content.
+                </p>
+  
+                <a routerLink="about" class="btn btn-secondary"
+                  >Go somewhere</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+    </div>
+        
+          <div class="tabs" *ngIf="selectMenu == 'Decoration'">
+  
+            <div class="container">
+  
+            
+            <div class="row">
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Decoration\99aa8744-980b-4bb7-9265-287062716728.jpeg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Decoration\IMG-20231223-WA0032.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Decoration\IMG-20231223-WA0033.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Decoration\IMG-20231223-WA0034.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Decoration\IMG-20231223-WA0035.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Decoration\download.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Decoration\il_570xN.3237074619_c3bk.webp"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Decoration\main-qimg-29adbd707c35601a9930f5d09c2ef590-lq.jpg"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="assets\Decoration\product-jpeg-500x500.webp"
+                    class="card-img-top"
+                    alt="bd"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">BIRTHDAY PARTIES</h5>
+                    <p class="card-text">
+                      Some quick example text to build on the card title and make
+                      up the bulk of the card's content.
+                    </p>
+  
+                    <a routerLink="about" class="btn btn-secondary"
+                      >Go somewhere</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        </div>
+  
+        <!-- Add the content here -->
+      </div>
+    </div>
+  </section>

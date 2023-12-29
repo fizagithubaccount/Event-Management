@@ -1,0 +1,64 @@
+<div class="events">
+<div class="container justify-content-center col-6">
+    <h1>Add New Event</h1>
+    <hr />      
+    <form [formGroup]="eventForm" (ngSubmit)="createEvent()">
+`
+        <!--Employee Name--> 
+        <div class="mb-3">
+            <label class="form-label"><b>Event Id</b></label>
+            <input type="number" class="form-control" formControlName="eventId" placeholder="Enter Event Id">
+            <div *ngIf="eventForm.controls['eventId'].dirty || eventForm.controls['eventId'].touched">
+
+                <div class="alert alert-danger" *ngIf="eventForm.controls['eventId'].errors?.['required']">
+                    Event ID is Required
+                </div>
+                <div class="alert alert-danger" *ngIf="eventForm.controls['eventId'].errors?.['number']">
+                    EVent Id is invalid
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Employee Email -->
+
+        <div class="mb-3">
+            <label class="form-label">Event Name</label>
+            <input type="text" class="form-control" formControlName="eventName" placeholder="Enter EventName">
+            <div *ngIf="eventForm.controls['eventName'].dirty || eventForm.controls['eventName'].touched">
+
+                <div class="alert alert-danger" *ngIf="eventForm.controls['eventName'].errors?.['required']">
+                    Event Name is required
+                </div>
+                <div class="alert alert-danger" *ngIf="eventForm.controls['eventName'].errors?.['text']">
+                    Event Name is invalid 
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Mobile -->
+
+        <div class="mb-3">
+            <label class="form-label">Image</label>
+            <input type="url" class="form-control" formControlName="image" placeholder="Insert the Image">
+            <div *ngIf="eventForm.controls['image'].dirty || eventForm.controls['image'].touched">
+
+                <div class="alert alert-danger" *ngIf="eventForm.controls['image'].errors?.['required']">
+                    Event Image is required
+                </div>
+                <div class="alert alert-danger" *ngIf="eventForm.controls['image'].errors?.['url']">
+                    URl is invalid 
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Salary -->
+
+      
+
+        <input type="submit" value="Add Event" [disabled]="eventForm.invalid" class="btn btn-success">
+    </form>
+</div>
+</div>

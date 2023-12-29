@@ -1,0 +1,54 @@
+div.scroll-container {
+    background-color: #e0d5d5;
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    margin-top: 10%;
+  }
+
+  
+  div.scroll-container img {
+    width: 500px;
+    height: 400px;
+  }
+ 
+.row{
+    padding: 8%;
+    justify-content: center;
+    text-align: center;
+}
+.col img{
+    width: 200px;
+    height: 200px ;
+    
+    
+   
+}
+.col{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    margin: 10px;
+}
+.Socials button {
+    margin: 8px;
+  }
+  .footer {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin: 2%;
+  }
+  .footer .col {
+  
+  
+    margin: 20px;
+    border-right: 2px solid;
+  }
+  .a-container{
+    background-image: url("/assets/theme-3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }

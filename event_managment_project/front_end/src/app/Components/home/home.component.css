@@ -1,0 +1,96 @@
+#carouselExampleDark {
+margin-top: 5%;
+padding: 5%;
+}
+.welcome {
+  text-align: center;
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: 200;
+  color: rgb(78, 68, 68) !important;
+}
+
+.content {
+  justify-content: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 20px;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.waviy {
+  position: relative;
+  text-align: center;
+  font-family: al;
+}
+.waviy span:hover {
+  color: purple;
+}
+.waviy span {
+  position: top;
+  display: inline-block;
+  font-size: 40px;
+  color: #000000;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(0.2s * var(--i));
+}
+@keyframes flip {
+  0%,
+  80% {
+    transform: rotateY(360deg);
+  }
+}
+.box .col {
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+
+  margin: 5%;
+  text-align: center;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+.box .col p {
+  color: #000000;
+}
+.Socials button {
+  margin: 8px;
+}
+.footer {
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  text-align: center;
+  margin: 2%;
+}
+.footer .col {
+
+
+  margin: 20px;
+  border-right: 2px solid;
+}
+.intro{
+  margin-top: 0;
+}
+.home{
+  background-image:url("/assets/theme-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card{
+  background-color: transparent;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  margin: 5%;
+  padding: 10px;
+
+}
+.card img{
+  padding: 25%;
+
+}
+

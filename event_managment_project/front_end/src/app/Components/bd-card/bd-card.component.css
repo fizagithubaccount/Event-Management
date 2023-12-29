@@ -1,0 +1,88 @@
+
+ ul {
+    margin-top: 40%;
+    list-style: none;
+ }
+ .sidelist {
+    list-style-type: none;
+    padding: 0;
+    
+   }
+   
+   .sidelist li {
+    padding: 8px;
+    margin-bottom: 7px;
+  
+    font-size: 18px;
+    font-weight: 600;
+    padding-left: 25px;
+    cursor: pointer;
+    
+   }
+   
+   .sidelist li i {
+    margin-right: 8px;
+   
+
+   }
+   .sidelist-content{
+    margin-top: 20%;
+    margin-left: 5%;
+   }
+.sidelist li:hover{
+    background-color: rgb(237, 209, 225);
+    color: rgb(105, 99, 89);
+    
+}   
+.main-box{
+    height: 650px;
+    background-color: transparent;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+}
+.onActive{
+    color: white;
+    background-color: rgb(139, 175, 134);
+
+}
+.bd-card{
+    background-image: url("/assets/theme-3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.card {
+    width: auto;
+    height: auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.3s ease-in-out;
+    padding: 10px;
+  }
+  .card-img-top {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    position: relative;
+  }
+
+  .container{
+    height: auto;
+    width: auto;
+    background-color: transparent;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.3s ease-in-out;
+    margin: 20px;
+    padding: 10px;
+  }
+  #product{
+    padding-top: 10%;
+  }
+  .btn{
+    width: 20%;
+    height: 50%;
+    justify-content: right;
+  }
+  
+  
+

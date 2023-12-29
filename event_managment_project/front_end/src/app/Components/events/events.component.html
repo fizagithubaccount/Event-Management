@@ -1,0 +1,166 @@
+<div class="events">
+  <div class="row">
+  <div class="col-md-3 col-sm-6" *ngFor="let event of events">
+  
+   
+      <div class="card" style="width: 18rem">
+        
+        <img src="{{event.image}}" class="card-img-top" alt="bd" />
+        <div class="card-body">
+          <h5 class="card-title">{{event.eventName}}</h5>
+          
+          <a routerLink="bd" class="btn btn-secondary">service</a>
+          <button class="btn btn-danger" (click) ="deleteEvent(event.eventId)"> Delete</button>
+        </div>
+      </div>
+    </div>
+    <!-- <div class="col-4">
+      <div class="card" style="width: 18rem">
+        <img src="assets/marriage.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">MARRIAGE EVENT</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a routerLink="marriage" class="btn btn-secondary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card" style="width: 18rem">
+        <img src="assets/engage.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">ENGAGEMENT EVENT</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a routerLink="engagement" class="btn btn-secondary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card" style="width: 18rem">
+        <img src="assets/reception.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">RECEPTION EVENTS</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a routerLink="reception" class="btn btn-secondary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card" style="width: 18rem">
+        <img src="assets/sangeeth.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">SANGEETH FUNCTION</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a routerLink="sangeeth" class="btn btn-secondary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card" style="width: 18rem">
+        <img src="assets/haldi.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">HALDI FUNCTION</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a routerLink="haldhi" class="btn btn-secondary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card" style="width: 18rem">
+        <img src="assets/suprise.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">SURPRISE EVENTS</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a routerLink="suprise" class="btn btn-secondary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card" style="width: 18rem">
+        <img src="assets/org.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">ORGANIZATION FESTS</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a routerLink="organization" class="btn btn-secondary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card" style="width: 18rem">
+        <img src="assets/saree.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">SAREE CEREMONY</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a routerLink="saree" class="btn btn-secondary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card" style="width: 18rem">
+        <img src="assets/cradel.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">CRADLE CEREMONY</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a routerLink="cradel" class="btn btn-secondary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card" style="width: 18rem">
+        <img src="assets/house.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">HOUSE WARMING CEREMONY</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a routerLink="house" class="btn btn-secondary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card" style="width: 18rem">
+        <img src="assets/anvi.png" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">AINNIVERSARY EVENTS</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a routerLink="anniversary" class="btn btn-secondary">Go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div> -->
+</div>
+
+
+
+</div>
+<router-outlet></router-outlet>

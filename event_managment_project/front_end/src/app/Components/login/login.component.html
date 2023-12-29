@@ -1,0 +1,51 @@
+<div class="login">
+  <video class="vid" src="assets/bg-4.mp4" autoplay muted loop></video>
+  <div class="container" id="container">
+    <div class="form-container sign-up">
+      <form [formGroup]="customerForm" (ngSubmit)="onSubmit()">
+        <h1>Create Account</h1>
+
+        <span>or use your email for registeration</span>
+        <input type="text" placeholder="Name" formControlName="customerName" />
+        <input
+          type="email"
+          placeholder="Email"
+          formControlName="customerEmail"
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          formControlName="customerPassword"
+        />
+        <input type="submit" value="Sign Up" />
+      </form>
+    </div>
+
+    <div class="form-container sign-in">
+      <form (ngSubmit)="login()">
+        <h1>Sign In</h1>
+
+        <span>or use your email password</span>
+        <input type="email" placeholder="Email" name="userEmail"  [(ngModel)]="userEmail"/>
+        <input type="password" placeholder="Password" name="userPassword" [(ngModel)]="userPassword" />
+        <a href="#">Forgot your password?</a>
+        <input type="submit" value="Sign In" />
+      </form>
+    </div>
+    <div class="toggel-container">
+      <div class="toggel">
+        <div class="toggel-panal toggel-left">
+          <h1>Welcome Back</h1>
+          <p>Enter your personal details to use all of site features</p>
+          <button class="hidden" id="login">Sign In</button>
+        </div>
+        <div class="toggel-panal toggel-right">
+          <h1>Hello Friend</h1>
+          <p>Register with your personal details to use all of site features</p>
+          <button class="hidden" id="register">Sign up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ 
